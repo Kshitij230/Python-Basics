@@ -1,5 +1,5 @@
 print("Logical Operators")
-# All logical operators = "or operator" and "and operator"
+# All logical operators = "or operator" and "and operator" and "not operator"
 
 
 """
@@ -11,6 +11,7 @@ False and True = False
 
 a = True
 b = False
-print(b and a)
+print(b and a) # Will return False
 # If any one situation is True it will return True in case of 'or' operator
-print(b or a)
+print(b or a) # Will return True
+print(not(True)) # Will return False
